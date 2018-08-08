@@ -1,0 +1,62 @@
+'
+' Indiquer le chemin des Images pour les clips
+' Indiquer aussi le chemin des clips
+'
+' Image 0
+ImageNormale(0)  =
+ImageEnfonsée(0) =
+ImageOver(0)     =
+Clip(0)          =
+' Image 1
+ImageNormale(1)  =
+ImageEnfonsée(1) =
+ImageOver(1)     =
+Clip(1)          =
+' Image 2
+ImageNormale(2)  =
+ImageEnfonsée(2) =
+ImageOver(2)     =
+Clip(2)          =
+' Image 3
+ImageNormale(3)  =
+ImageEnfonsée(3) =
+ImageOver(3)     =
+Clip(3)          =
+' Image 4
+ImageNormale(4)  =
+ImageEnfonsée(4) =
+ImageOver(4)     =
+Clip(4)          =
+' Image 5
+ImageNormale(5)  =
+ImageEnfonsée(5) =
+ImageOver(5)     =
+Clip(5)          =
+' Image 6
+ImageNormale(6)  =
+ImageEnfonsée(6) =
+ImageOver(6)     =
+Clip(6)          =
+' Image 7
+ImageNormale(7)  =
+ImageEnfonsée(7) =
+ImageOver(7)     =
+Clip(7)          =
+' Image 8
+ImageNormale(8)  =
+ImageEnfonsée(8) =
+ImageOver(8)     =
+Clip(8)          =
+' Image 9
+ImageNormale(9)  =
+ImageEnfonsée(9) =
+ImageOver(9)     =
+Clip(9)          =
+' Image 10
+ImageNormale(10) =
+ImageEnfonsée(10)=
+ImageOver(10)    =
+Clip(10)         =
+' Image de fond 
+ImageFond        =
+

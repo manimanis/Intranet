@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImgViewer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/ImgViewer.res" /d "NDEBUG" "D:\Mon Travail en C++\ImgViewer\ImgViewer.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9160.TMP" with contents
+[
+/nologo /MT /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ImgViewer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Mon Travail en C++\ImgViewer\ImgViewer.cpp"
+"D:\Mon Travail en C++\ImgViewer\ImgViewerDoc.cpp"
+"D:\Mon Travail en C++\ImgViewer\ImgViewerView.cpp"
+"D:\Mon Travail en C++\ImgViewer\MainFrm.cpp"
+"D:\Mon Travail en C++\ImgViewer\MulExtDocTmp.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP9160.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9161.TMP" with contents
+[
+/nologo /MT /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ImgViewer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Mon Travail en C++\ImgViewer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP9161.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9162.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ImgViewer.pdb" /machine:I386 /out:"Release/ImgViewer.exe" 
+".\Release\ImgViewer.obj"
+".\Release\ImgViewerDoc.obj"
+".\Release\ImgViewerView.obj"
+".\Release\MainFrm.obj"
+".\Release\MulExtDocTmp.obj"
+".\Release\StdAfx.obj"
+".\Release\ImgViewer.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP9162.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ImgViewer.cpp
+ImgViewerDoc.cpp
+ImgViewerView.cpp
+MainFrm.cpp
+MulExtDocTmp.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ImgViewer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

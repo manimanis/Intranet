@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CorrectionQCM - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Debug/CorrectionQCM.res" /d "_DEBUG" /d "_AFXDLL" "D:\Mon Travail en C++\MyProjects\CorrectionQCM\CorrectionQCM.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE2E1.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CorrectionQCM.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Mon Travail en C++\MyProjects\CorrectionQCM\CorrectionQCM.cpp"
+"D:\Mon Travail en C++\MyProjects\CorrectionQCM\CorrectionQCMDoc.cpp"
+"D:\Mon Travail en C++\MyProjects\CorrectionQCM\CorrectionQCMView.cpp"
+"D:\Mon Travail en C++\MyProjects\CorrectionQCM\MainFrm.cpp"
+"D:\Mon Travail en C++\MyProjects\CorrectionQCM\MyTreeCtrl.cpp"
+"D:\Mon Travail en C++\MyProjects\CorrectionQCM\QuestionCount.cpp"
+"D:\Mon Travail en C++\MyProjects\CorrectionQCM\QuestionsReponses.cpp"
+"D:\Mon Travail en C++\MyProjects\CorrectionQCM\ResponseDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE2E1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE2E2.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CorrectionQCM.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Mon Travail en C++\MyProjects\CorrectionQCM\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE2E2.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE2E3.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CorrectionQCM.pdb" /debug /machine:I386 /out:"Debug/CorrectionQCM.exe" /pdbtype:sept 
+".\Debug\CorrectionQCM.obj"
+".\Debug\CorrectionQCMDoc.obj"
+".\Debug\CorrectionQCMView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyTreeCtrl.obj"
+".\Debug\QuestionCount.obj"
+".\Debug\QuestionsReponses.obj"
+".\Debug\ResponseDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CorrectionQCM.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE2E3.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CorrectionQCM.cpp
+CorrectionQCMDoc.cpp
+CorrectionQCMView.cpp
+MainFrm.cpp
+MyTreeCtrl.cpp
+QuestionCount.cpp
+QuestionsReponses.cpp
+D:\Mon Travail en C++\MyProjects\CorrectionQCM\QuestionsReponses.cpp(162) : warning C4101: 'i' : unreferenced local variable
+ResponseDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CorrectionQCM.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

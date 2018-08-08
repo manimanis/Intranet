@@ -1,0 +1,1 @@
+Permet de Calculer la résistance d'un Résistor

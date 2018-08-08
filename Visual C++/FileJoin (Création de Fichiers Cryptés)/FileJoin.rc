@@ -1,0 +1,239 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 12, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FileJoin.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.fra\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\FileJoin.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 286, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "A propos de Join File Converter..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,15,24,21,20
+    LTEXT           "Join File version 1.0",IDC_STATIC,44,16,65,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2000",IDC_STATIC,44,56,59,8
+    LTEXT           "Réalisé par : MANI Mohamed Anis\n(Dark- Star Software)",
+                    IDC_STATIC,44,32,111,16
+    GROUPBOX        "Programmeur",IDC_STATIC,7,3,154,71,BS_CENTER
+    CTEXT           "Cliquer n'importe où,  [ESC] ou [Entrée] pour femer cette boîte",
+                    IDC_STATIC,45,80,195,8
+    CTEXT           "Membres\n\nMANI Mohamed Anis\nKORBAA Salah\nCHOUIKH Naïm",
+                    IDC_STATIC,169,20,103,48
+    GROUPBOX        "Programmer Team",IDC_STATIC,165,3,114,71,BS_CENTER
+END
+
+IDD_FILEJOIN_DIALOG DIALOGEX 0, 0, 218, 241
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Conversion de fichiers en format Join"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_FICHIER,10,26,150,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir...",IDC_PARFICHIER,165,26,42,12
+    EDITTEXT        IDC_RESULTAT,10,52,150,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir...",IDC_PARRESULTAT,165,52,42,12
+    CONTROL         "Fichier Join ---> Fichier Normal",IDC_JOINTONORMAL,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,17,86,108,10
+    CONTROL         "Fichier Normal ---> Fichier Join",IDC_NORMALTOJOIN,
+                    "Button",BS_AUTORADIOBUTTON,17,98,110,10
+    CONTROL         "Slider1",IDC_TAUXFRAGMENTATION,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,11,142,153,12
+    CONTROL         "Slider1",IDC_TAILLEFRAGMENTS,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,11,174,153,12
+    DEFPUSHBUTTON   "Fermer",IDOK,49,220,50,14
+    PUSHBUTTON      "Convertir...",IDC_CONVERTIR,117,220,50,14
+    LTEXT           "Fichier a convertir",IDC_STATIC,10,15,102,8
+    LTEXT           "Résultat",IDC_STATIC,10,41,102,8
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    7,205,204,10
+    CTEXT           "Avancement de la conversion",IDC_STATIC,38,194,141,8
+    GROUPBOX        "Type de conversion",IDC_STATIC,7,73,204,39,BS_CENTER
+    LTEXT           "Taux de fragmentation",IDC_STATICTAUX,11,127,75,10
+    LTEXT           "Taille des fragements",IDC_STATICTAILLE,11,159,75,10
+    EDITTEXT        IDC_EDIT_TAUX,173,142,32,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_TAILLE,173,174,32,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_TABSTOP
+    GROUPBOX        "Paramètres de la conversion",IDC_STATICPARAM,7,117,204,
+                    75,BS_CENTER
+    GROUPBOX        "Fichiers à Convertir",IDC_STATIC,7,7,204,63,BS_CENTER
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040C04B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Application MFC FileJoin\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FileJoin\0"
+            VALUE "LegalCopyright", "Copyright (C) 2000\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "FileJoin.EXE\0"
+            VALUE "ProductName", "Application FileJoin\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 279
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_FILEJOIN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&A propos de Join File Converter..."
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE 12, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\FileJoin.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.fra\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

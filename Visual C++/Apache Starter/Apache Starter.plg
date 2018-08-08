@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Apache Starter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP2212.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Apache Starter.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Program Files\Microsoft Visual Studio\MyProjects\Apache Starter\Apache StarterDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2212.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/Apache Starter.pdb" /machine:I386 /out:"Release/Apache Starter.exe"  ".\Release\Apache Starter.obj" ".\Release\Apache StarterDlg.obj" ".\Release\StdAfx.obj" ".\Release\Apache Starter.res" "
+<h3>Output Window</h3>
+Compiling...
+Apache StarterDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Apache Starter.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

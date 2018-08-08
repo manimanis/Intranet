@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Special Player - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/Special Player.res" /d "NDEBUG" /d "_AFXDLL" "D:\Mon Travail en C++\MyProjects\Special Player\Special Player.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP8105.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Special Player.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Mon Travail en C++\MyProjects\Special Player\MainFrm.cpp"
+"D:\Mon Travail en C++\MyProjects\Special Player\mediaplayer2.cpp"
+"D:\Mon Travail en C++\MyProjects\Special Player\mediaplayerdvd.cpp"
+"D:\Mon Travail en C++\MyProjects\Special Player\Special Player.cpp"
+"D:\Mon Travail en C++\MyProjects\Special Player\Special PlayerDoc.cpp"
+"D:\Mon Travail en C++\MyProjects\Special Player\Special PlayerView.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP8105.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP8106.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Special Player.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Mon Travail en C++\MyProjects\Special Player\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP8106.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP8107.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Special Player.pdb" /machine:I386 /out:"Release/Special Player.exe" 
+".\Release\MainFrm.obj"
+".\Release\mediaplayer2.obj"
+".\Release\mediaplayerdvd.obj"
+".\Release\Special Player.obj"
+".\Release\Special PlayerDoc.obj"
+".\Release\Special PlayerView.obj"
+".\Release\StdAfx.obj"
+".\Release\Special Player.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP8107.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+mediaplayer2.cpp
+mediaplayerdvd.cpp
+Special Player.cpp
+Special PlayerDoc.cpp
+Special PlayerView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Special Player.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

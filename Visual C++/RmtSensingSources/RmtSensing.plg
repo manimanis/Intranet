@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RmtSensing - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP3381.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/RmtSensing.pdb" /machine:I386 /out:"Release/RmtSensing.exe" 
+".\Release\BitmapManipulations.obj"
+".\Release\ChildFrm.obj"
+".\Release\ColorBox.obj"
+".\Release\ColorListBox.obj"
+".\Release\ColorSelectionCriteres.obj"
+".\Release\Common.obj"
+".\Release\ComposanteB.obj"
+".\Release\ComposanteG.obj"
+".\Release\ComposanteR.obj"
+".\Release\ComposantesRGB.obj"
+".\Release\EdgeDetectionDlg.obj"
+".\Release\EqualisationDlg.obj"
+".\Release\Equalization.obj"
+".\Release\ExponentialExpansion.obj"
+".\Release\ExponentialOptimisationsDlg.obj"
+".\Release\FakeColorsDialog.obj"
+".\Release\Hstogramme.obj"
+".\Release\LinearExpansion.obj"
+".\Release\LinearOptimisationDlg.obj"
+".\Release\LogarithmicExpansion.obj"
+".\Release\LogarithmicOptimisationsDlg.obj"
+".\Release\LookUpTables.obj"
+".\Release\MainFrm.obj"
+".\Release\OptimisationsDlg.obj"
+".\Release\PictureHistogrammeSettingsDlg.obj"
+".\Release\PictureHistogrammeView.obj"
+".\Release\PIeceWiseLinearExpansion.obj"
+".\Release\PieceWiseLinearOptimisationDlg.obj"
+".\Release\RmtListForm.obj"
+".\Release\RmtSensing.obj"
+".\Release\RmtSensingDoc.obj"
+".\Release\RmtSensingFrame.obj"
+".\Release\RmtSensingView.obj"
+".\Release\SplashScreen.obj"
+".\Release\StdAfx.obj"
+".\Release\UserZoomDlg.obj"
+".\Release\WaitDialog.obj"
+".\Release\RmtSensing.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP3381.TMP"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+RmtSensing.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

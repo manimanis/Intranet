@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CD Label - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/CD Label.res" /d "NDEBUG" /d "_AFXDLL" "D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\CD Label.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC2D3.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/CD Label.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\BackSide.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\CD Label.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\CD LabelDoc.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\CD LabelView.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\ChildFrm.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\DessinVectoriel.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\DrawProperty.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\MainFrm.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\ObjetsVisuels.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\ProprieteTexte.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\TextObject.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC2D3.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC2D4.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/CD Label.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Program Files\Microsoft Visual Studio\MyProjects\CD Label\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC2D4.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC2D5.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/CD Label.pdb" /machine:I386 /out:"Release/CD Label.exe" 
+".\Release\BackSide.obj"
+".\Release\CD Label.obj"
+".\Release\CD LabelDoc.obj"
+".\Release\CD LabelView.obj"
+".\Release\ChildFrm.obj"
+".\Release\DessinVectoriel.obj"
+".\Release\DrawProperty.obj"
+".\Release\MainFrm.obj"
+".\Release\ObjetsVisuels.obj"
+".\Release\ProprieteTexte.obj"
+".\Release\StdAfx.obj"
+".\Release\TextObject.obj"
+".\Release\CD Label.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPC2D5.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BackSide.cpp
+CD Label.cpp
+CD LabelDoc.cpp
+CD LabelView.cpp
+ChildFrm.cpp
+DessinVectoriel.cpp
+DrawProperty.cpp
+MainFrm.cpp
+ObjetsVisuels.cpp
+ProprieteTexte.cpp
+TextObject.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CD Label.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

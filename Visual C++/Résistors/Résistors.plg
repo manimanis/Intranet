@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Résistors - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/Résistors.res" /d "NDEBUG" /d "_AFXDLL" "D:\Mon Travail en C++\Résistors\Résistors.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB1A1.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Résistors.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Mon Travail en C++\Résistors\Resistor.cpp"
+"D:\Mon Travail en C++\Résistors\Résistors.cpp"
+"D:\Mon Travail en C++\Résistors\RésistorsDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB1A1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB1A2.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Résistors.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Mon Travail en C++\Résistors\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB1A2.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/Résistors.pdb" /machine:I386 /out:"Release/Résistors.exe"  ".\Release\Resistor.obj" ".\Release\Résistors.obj" ".\Release\RésistorsDlg.obj" ".\Release\StdAfx.obj" ".\Release\Résistors.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Resistor.cpp
+Résistors.cpp
+RésistorsDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Résistors.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

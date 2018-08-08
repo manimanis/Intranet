@@ -1,0 +1,16 @@
+:Base RmtSensing.hlp
+:Title Super Cool
+1 Page d'aide principale=MAIN_HELP_PAGE
+1 Techniques d'optimisations Radiométriques
+2 Aperçu sur l'applicatio=APERCU_SUR_L_APPLICATION
+2 Introduction=INTRODUCTION
+2 Images Scalaires et Vectorielles=IMAGES_VECTORIELLES_ET_SCALAIRES
+2 Histogramme de l'Image=HISTOGRAMME_DE_LIMAGE
+2 Modification du contraste d'une image
+3 Modification du contraste d'une image=MODIFICATION_DU_CONTRASTE_DUNE_IMAGE
+3 Règle de modification de l'histogramme=REGLE_DE_MODIFICATION_DE_LHISTOGRAMME
+3 Optimisation linéaire de contraste=OPTIMISATION_LINEAIRE_DE_CONTRASTE
+3 Optimisations Logarithmiques et exponentielles=OPTIMISATIONS_LOGARITHMIQUES_ET_EXPONENTIELLES
+3 Optimisation par segments=OPTIMISATIONS_PAR_SEGMENTS
+
+

@@ -1,0 +1,1 @@
+Ceci est un éditeur de Textes ASCII

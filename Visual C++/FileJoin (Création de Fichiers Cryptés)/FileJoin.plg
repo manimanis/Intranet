@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FileJoin - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/FileJoin.res" /d "NDEBUG" /d "_AFXDLL" "D:\Mon Travail en C++\MyProjects\FileJoin\FileJoin.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1285.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/FileJoin.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Mon Travail en C++\MyProjects\FileJoin\FileJoin.cpp"
+"D:\Mon Travail en C++\MyProjects\FileJoin\FileJoinDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1285.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1286.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/FileJoin.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Mon Travail en C++\MyProjects\FileJoin\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1286.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/FileJoin.pdb" /machine:I386 /out:"Release/FileJoin.exe"  ".\Release\FileJoin.obj" ".\Release\FileJoinDlg.obj" ".\Release\StdAfx.obj" ".\Release\FileJoin.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+FileJoin.cpp
+FileJoinDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+FileJoin.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
